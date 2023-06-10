@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: navy;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.logo {
+	width: 340px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 30px;
+}
+
+.nav-bar-links {
+	text-decoration: none;
+	color: white;
+	font-family: montserrat;
+	font-size: 21px;
+	font-weight: medium;
+}
+
+.nav-bar-links:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-thickness: 5px;
+}
+
+.social-icons i {
+	color: white;
+	margin-left: 10px;
+	font-size: 35px;
+}
